@@ -88,6 +88,8 @@ GEM
     puma (4.3.0)
       nio4r (~> 2.0)
     rack (2.0.7)
+    rack-cors (1.1.0)
+      rack (>= 2.0.0)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (6.0.1)
@@ -144,12 +146,13 @@ DEPENDENCIES
   byebug
   faker
   puma (~> 4.1)
+  rack-cors
   rails (~> 6.0.1)
-  sqlite3 (~> 1.4)
+  sqlite3
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.6.5p114
+   ruby 2.5.7p206
 
 BUNDLED WITH
-   1.17.2
+   2.1.4
